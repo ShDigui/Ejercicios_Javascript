@@ -28,7 +28,7 @@ si el producto es igual o superior a $30000e inferior a $100000 tendra un descue
 si el producto es igual o superior a $100000 el descuento sera del 10%
 imprimir el valor incial y el valor final (incluido el descuento).  */
 
-let costoInicial= 50000;
+let costoInicial= 60000;
 let primerDescuento = 0.05;
 let segundoDescuento = 0.10;
 
@@ -37,12 +37,12 @@ if (costoInicial <30000){
 };
 
 if (costoInicial >=30000 && costoInicial <100000){
-    var valorDesc1 = costoInicial + (costoInicial-primerDescuento)
+    var valorDesc1 = costoInicial - (costoInicial*primerDescuento)
     console.log ("El precio del poducto con un descuendo del 5% es: "+valorDesc1)
 };
 
  if (costoInicial >=100000){
-     var valorDesc2 = costoInicial + (costoInicial-segundoDescuento)
+     var valorDesc2 = costoInicial - (costoInicial*segundoDescuento)
      console.log("El precio del producto con un descuento del 10% es: " + valorDesc2)
  };
 
