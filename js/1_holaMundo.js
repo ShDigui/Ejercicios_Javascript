@@ -46,5 +46,30 @@ if (costoInicial >=30000 && costoInicial <100000){
      console.log("El precio del producto con un descuento del 10% es: " + valorDesc2)
  };
 
+ /*crear un arreglo que almacene los nombres de 4 aprendizes 
+  y mostrar el listado a travez de un ciclo
+  */
+ let aprendizUno = new Array ();
+aprendizUno[0] = 1;
+aprendizUno[1] = 2326610;
+aprendizUno[2] = "Kevin";
+aprendizUno[3] = "Stiven";
+aprendizUno[4] = "Ijaji ";
+
+ let aprendizDos= new Array(2, "2326610", "Juan ", "Felipe", "Moreno");
+
+ let aprendizTres= new Array(4, "2326610", "Jhoan ", "Sebastian", "Lopez");
+
+
+ let aprendizCuatro= [4, "2326610", "Diego", "Antonio", "Salazar",];
+
+ console.log ("nombre del primer aprendiz:" + aprendizUno[2]);
+ console.log ("nombre del segundo aprendiz:" + aprendizDos[2]);
+ console.log ("nombre del tercer aprendiz:" + aprendizTres[2]);
+ console.log ("nombre del cuarto aprendiz:" + aprendizCuatro[2])
+
+
+
+
 
 
